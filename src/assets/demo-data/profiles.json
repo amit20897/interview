@@ -1,0 +1,63 @@
+[
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "profilePicture": "/images/profile-1.jpeg",
+      "jobTitle": "Software Engineer"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "profilePicture": "/images/profile-2.jpeg",
+      "jobTitle": "Sales Representative"
+    },
+    {
+      "firstName": "David",
+      "lastName": "Anderson",
+      "profilePicture": "/images/profile-3.jpeg",
+      "jobTitle": "Financial Analyst"
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Lee",
+      "profilePicture": "/images/profile-4.jpeg",
+      "jobTitle": "Project Manager"
+    },
+    {
+      "firstName": "Matthew",
+      "lastName": "Taylor",
+      "profilePicture": "/images/profile-5.jpeg",
+      "jobTitle": "Data Scientist"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "profilePicture": "/images/profile-6.jpeg",
+      "jobTitle": "Marketing Manager"
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Williams",
+      "profilePicture": "/images/profile-7.jpeg",
+      "jobTitle": "Accountant"
+    },
+    {
+      "firstName": "William",
+      "lastName": "Brown",
+      "profilePicture": "/images/profile-8.jpeg",
+      "jobTitle": "Product Manager"
+    },
+    {
+      "firstName": "Joseph",
+      "lastName": "Jones",
+      "profilePicture": "/images/profile-9.jpeg",
+      "jobTitle": "Customer Support Specialist"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Davis",
+      "profilePicture": "/images/profile-10.jpeg",
+      "jobTitle": "Graphic Designer"
+    }
+  ]
+  

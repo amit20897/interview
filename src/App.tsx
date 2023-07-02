@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import { Container, Stack } from '@mui/material';
+import { getProfiles } from './services/ProfileService';
+import { ProfileData } from './models/Profile';
+import Profile from './components/Profile';
 
 function App() {
+  const [profiles, setProfiles] = useState<ProfileData[]>([]);
+
+  useEffect(() => {
+    getProfiles({query: 'John'}).then((profiles) => {
+      setProfiles(profiles);
+      console.log(profiles);
+    }).catch(console.error)
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Stack spacing={1}>
+        {profiles.map(p => <Profile profile={p}/>)}
+      </Stack>
+    </Container>
   );
 }
 
